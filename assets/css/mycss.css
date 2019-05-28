@@ -1,0 +1,203 @@
+table {
+	background: #fff;
+	padding: 5px;
+}
+
+tr,
+td {
+	border: table-cell;
+	border: 1px solid #444;
+}
+
+tr,
+td {
+	vertical-align: top !important;
+}
+
+#right {
+	border-right: none !important;
+}
+
+#left {
+	border-left: none !important;
+}
+
+.isi {
+	height: 300px !important;
+}
+
+.disp {
+	text-align: center;
+	padding: 1.5rem 0;
+	margin-bottom: .5rem;
+}
+
+.logodisp {
+	float: left;
+	position: relative;
+	width: 110px;
+	height: 110px;
+	margin: 0 0 0 1rem;
+}
+
+.logodisp2 {
+	float: right;
+	position: relative;
+	width: 110px;
+	height: 110px;
+	margin: 0 0 0 1rem;
+}
+
+#lead {
+	width: auto;
+	position: relative;
+	margin: 25px 0 0 75%;
+}
+
+.lead {
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: -10px;
+}
+
+.tgh {
+	text-align: center;
+}
+
+#nama {
+	font-size: 2.1rem;
+	margin-bottom: -1rem;
+}
+
+#alamat {
+	font-size: 16px;
+}
+
+.up {
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 2.2rem;
+	font-size: 1.5rem;
+}
+
+.status {
+	margin: 0;
+	font-size: 1.3rem;
+	margin-bottom: .5rem;
+}
+
+#lbr {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.separator {
+	border-bottom: 2px solid #616161;
+	margin: -1.3rem 0 1.5rem;
+}
+
+@media print {
+	body {
+		font-size: 12px;
+		color: #212121;
+	}
+
+	table {
+		width: 100%;
+		font-size: 12px;
+		color: #212121;
+		border: table-cell;
+	}
+
+	tr,
+	td {
+		border: table-cell;
+		border: 1px solid #444;
+		padding: 8px !important;
+
+	}
+
+	tr,
+	td {
+		vertical-align: top !important;
+	}
+
+	#lbr {
+		font-size: 20px;
+	}
+
+	.isi {
+		height: 200px !important;
+	}
+
+	.tgh {
+		text-align: center;
+	}
+
+	.disp {
+		text-align: center;
+		margin: -.5rem 0;
+	}
+
+	.logodisp {
+		float: left;
+		position: relative;
+		width: 80px;
+		height: 80px;
+		margin: .5rem 0 0 .5rem;
+	}
+
+	.logodisp2 {
+		float: right;
+		position: relative;
+		width: 80px;
+		height: 80px;
+		margin: .7rem 0 0 .5rem;
+	}
+
+	#lead {
+		width: auto;
+		position: relative;
+		margin: 15px 0 0 75%;
+	}
+
+	.lead {
+		font-weight: bold;
+		text-decoration: underline;
+		margin-bottom: -10px;
+	}
+
+	#nama {
+		font-size: 20px !important;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin: -10px 0 -20px 0;
+	}
+
+	.up {
+		font-size: 17px !important;
+		font-weight: normal;
+	}
+
+	.status {
+		font-size: 17px !important;
+		font-weight: normal;
+		margin-bottom: -.1rem;
+	}
+
+	#alamat {
+		margin-top: -15px;
+		font-size: 13px;
+	}
+
+	#lbr {
+		font-size: 17px;
+		font-weight: bold;
+	}
+
+	.separator {
+		border-bottom: 2px solid #616161;
+		margin: -1rem 0 1rem;
+	}
+
+}
